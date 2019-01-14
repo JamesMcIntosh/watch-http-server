@@ -66,7 +66,7 @@
   "dependencies": {
     "chokidar": "^2.0.4",
     "colors": "1.0.3",
-    "sexstatic": "git+https://JamesMcIntosh@github.com/JamesMcIntosh/node-sexstatic#30327c8a82a9f63592977f1a3fe82b1a10d6cecf",
+    "sexstatic": "git+https://JamesMcIntosh@github.com/JamesMcIntosh/node-sexstatic#3d0e241afd8f935d36ca2124d28581d508ec5f0e",
     "opener": "~1.4.0",
     "optimist": "0.6.x",
     "portfinder": "0.2.x",
