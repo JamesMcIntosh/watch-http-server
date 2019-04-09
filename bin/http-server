@@ -10,9 +10,11 @@ var colors = require('colors'),
       .boolean('o')
       .boolean('s')
       .boolean('S')
+      .boolean('v')
       .boolean('ssl')
       .boolean('ext')
       .boolean('cors')
+      .boolean('debug')
       .argv;
 
 if (argv.h || argv.help) {
@@ -24,6 +26,7 @@ if (argv.h || argv.help) {
     "  -a                 Address to use [0.0.0.0]",
     "  -d                 Show directory listings [true]",
     "  -i                 Display autoIndex [true]",
+    "  -v --debug         Verbose debug logging [false]",
     "  -e --ext           Default file extension if none supplied [none]",
     "  -s --silent        Suppress log messages from output",
     "  --cors             Enable CORS via the 'Access-Control-Allow-Origin' header",
@@ -69,7 +72,8 @@ function listen(port) {
     showDir: argv.d,
     autoIndex: argv.i,
     ext: argv.e || argv.ext,
-    logFn: requestLogger
+    logFn: requestLogger,
+    debug: argv.v || argv.debug
   };
 
   if (argv.cors) {
