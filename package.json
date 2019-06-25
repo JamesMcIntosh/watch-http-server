@@ -65,13 +65,13 @@
   ],
   "dependencies": {
     "chokidar": "^2.0.4",
-    "colors": "1.0.3",
-    "sexstatic": "git+https://JamesMcIntosh@github.com/JamesMcIntosh/node-sexstatic#0306a9158d57c3f0fc9d310aa7a85cdcc95e50bb",
-    "opener": "~1.4.0",
-    "optimist": "0.6.x",
-    "portfinder": "0.2.x",
-    "union": "~0.4.3",
-    "ws": "^0.6.3"
+    "colors": "^1.3.3",
+    "opener": "^1.5.1",
+    "optimist": "^0.6.1",
+    "portfinder": "^1.0.20",
+    "sexstatic": "git+https://JamesMcIntosh@github.com/JamesMcIntosh/node-sexstatic.git#0306a9158d57c3f0fc9d310aa7a85cdcc95e50bb",
+    "union": "^0.5.0",
+    "ws": "^7.0.0"
   },
   "devDependencies": {
     "vows": "0.7.x",
